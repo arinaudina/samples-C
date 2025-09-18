@@ -5,7 +5,7 @@ int main()
 {
 	setlocale(LC_ALL, "RUS");
 	int a, b, c, d , max1, max2;
-	printf("¬ведите 4 числа:\n");
+	printf("enter 4 numbers:\n"); // The original program uses Russian language
 	scanf_s("%d%d%d%d", &a, &b, &c, &d);
 	if a > b
 		max1 = a;
@@ -24,3 +24,4 @@ int main()
 
 
 }
+
